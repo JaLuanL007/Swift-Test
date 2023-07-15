@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B6394962A621E2E00D95FE2 /* SnoozeSense Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3B6394952A621E2E00D95FE2 /* SnoozeSense Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3B63949B2A621E2E00D95FE2 /* SnoozeSenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B63949A2A621E2E00D95FE2 /* SnoozeSenseApp.swift */; };
+		3B63949D2A621E2E00D95FE2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B63949C2A621E2E00D95FE2 /* ContentView.swift */; };
+		3B63949F2A621E3100D95FE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B63949E2A621E3100D95FE2 /* Assets.xcassets */; };
+		3B6394A22A621E3100D95FE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B6394A12A621E3100D95FE2 /* Preview Assets.xcassets */; };
+		3B6394AC2A621E3100D95FE2 /* SnoozeSense_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6394AB2A621E3100D95FE2 /* SnoozeSense_Watch_AppTests.swift */; };
+		3B6394B62A621E3100D95FE2 /* SnoozeSense_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6394B52A621E3100D95FE2 /* SnoozeSense_Watch_AppUITests.swift */; };
+		3B6394B82A621E3100D95FE2 /* SnoozeSense_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6394B72A621E3100D95FE2 /* SnoozeSense_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B6394972A621E2E00D95FE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B6394892A621E2D00D95FE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B6394942A621E2D00D95FE2;
+			remoteInfo = "SnoozeSense Watch App";
+		};
+		3B6394A82A621E3100D95FE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B6394892A621E2D00D95FE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B6394942A621E2D00D95FE2;
+			remoteInfo = "SnoozeSense Watch App";
+		};
+		3B6394B22A621E3100D95FE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B6394892A621E2D00D95FE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B6394942A621E2D00D95FE2;
+			remoteInfo = "SnoozeSense Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3B6394BE2A621E3100D95FE2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3B6394962A621E2E00D95FE2 /* SnoozeSense Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3B63948F2A621E2D00D95FE2 /* SnoozeSense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnoozeSense.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B6394952A621E2E00D95FE2 /* SnoozeSense Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SnoozeSense Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B63949A2A621E2E00D95FE2 /* SnoozeSenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnoozeSenseApp.swift; sourceTree = "<group>"; };
+		3B63949C2A621E2E00D95FE2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3B63949E2A621E3100D95FE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B6394A12A621E3100D95FE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B6394A72A621E3100D95FE2 /* SnoozeSense Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SnoozeSense Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B6394AB2A621E3100D95FE2 /* SnoozeSense_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnoozeSense_Watch_AppTests.swift; sourceTree = "<group>"; };
+		3B6394B12A621E3100D95FE2 /* SnoozeSense Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SnoozeSense Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B6394B52A621E3100D95FE2 /* SnoozeSense_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnoozeSense_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		3B6394B72A621E3100D95FE2 /* SnoozeSense_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnoozeSense_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B6394922A621E2D00D95FE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6394A42A621E3100D95FE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6394AE2A621E3100D95FE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B6394882A621E2D00D95FE2 = {
+			isa = PBXGroup;
+			children = (
+				3B6394992A621E2E00D95FE2 /* SnoozeSense Watch App */,
+				3B6394AA2A621E3100D95FE2 /* SnoozeSense Watch AppTests */,
+				3B6394B42A621E3100D95FE2 /* SnoozeSense Watch AppUITests */,
+				3B6394902A621E2D00D95FE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B6394902A621E2D00D95FE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B63948F2A621E2D00D95FE2 /* SnoozeSense.app */,
+				3B6394952A621E2E00D95FE2 /* SnoozeSense Watch App.app */,
+				3B6394A72A621E3100D95FE2 /* SnoozeSense Watch AppTests.xctest */,
+				3B6394B12A621E3100D95FE2 /* SnoozeSense Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B6394992A621E2E00D95FE2 /* SnoozeSense Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				3B63949A2A621E2E00D95FE2 /* SnoozeSenseApp.swift */,
+				3B63949C2A621E2E00D95FE2 /* ContentView.swift */,
+				3B63949E2A621E3100D95FE2 /* Assets.xcassets */,
+				3B6394A02A621E3100D95FE2 /* Preview Content */,
+			);
+			path = "SnoozeSense Watch App";
+			sourceTree = "<group>";
+		};
+		3B6394A02A621E3100D95FE2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3B6394A12A621E3100D95FE2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3B6394AA2A621E3100D95FE2 /* SnoozeSense Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B6394AB2A621E3100D95FE2 /* SnoozeSense_Watch_AppTests.swift */,
+			);
+			path = "SnoozeSense Watch AppTests";
+			sourceTree = "<group>";
+		};
+		3B6394B42A621E3100D95FE2 /* SnoozeSense Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B6394B52A621E3100D95FE2 /* SnoozeSense_Watch_AppUITests.swift */,
+				3B6394B72A621E3100D95FE2 /* SnoozeSense_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "SnoozeSense Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B63948E2A621E2D00D95FE2 /* SnoozeSense */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B6394BF2A621E3100D95FE2 /* Build configuration list for PBXNativeTarget "SnoozeSense" */;
+			buildPhases = (
+				3B63948D2A621E2D00D95FE2 /* Resources */,
+				3B6394BE2A621E3100D95FE2 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B6394982A621E2E00D95FE2 /* PBXTargetDependency */,
+			);
+			name = SnoozeSense;
+			productName = SnoozeSense;
+			productReference = 3B63948F2A621E2D00D95FE2 /* SnoozeSense.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		3B6394942A621E2D00D95FE2 /* SnoozeSense Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B6394BB2A621E3100D95FE2 /* Build configuration list for PBXNativeTarget "SnoozeSense Watch App" */;
+			buildPhases = (
+				3B6394912A621E2D00D95FE2 /* Sources */,
+				3B6394922A621E2D00D95FE2 /* Frameworks */,
+				3B6394932A621E2D00D95FE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SnoozeSense Watch App";
+			productName = "SnoozeSense Watch App";
+			productReference = 3B6394952A621E2E00D95FE2 /* SnoozeSense Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B6394A62A621E3100D95FE2 /* SnoozeSense Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B6394C22A621E3100D95FE2 /* Build configuration list for PBXNativeTarget "SnoozeSense Watch AppTests" */;
+			buildPhases = (
+				3B6394A32A621E3100D95FE2 /* Sources */,
+				3B6394A42A621E3100D95FE2 /* Frameworks */,
+				3B6394A52A621E3100D95FE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B6394A92A621E3100D95FE2 /* PBXTargetDependency */,
+			);
+			name = "SnoozeSense Watch AppTests";
+			productName = "SnoozeSense Watch AppTests";
+			productReference = 3B6394A72A621E3100D95FE2 /* SnoozeSense Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B6394B02A621E3100D95FE2 /* SnoozeSense Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B6394C52A621E3100D95FE2 /* Build configuration list for PBXNativeTarget "SnoozeSense Watch AppUITests" */;
+			buildPhases = (
+				3B6394AD2A621E3100D95FE2 /* Sources */,
+				3B6394AE2A621E3100D95FE2 /* Frameworks */,
+				3B6394AF2A621E3100D95FE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B6394B32A621E3100D95FE2 /* PBXTargetDependency */,
+			);
+			name = "SnoozeSense Watch AppUITests";
+			productName = "SnoozeSense Watch AppUITests";
+			productReference = 3B6394B12A621E3100D95FE2 /* SnoozeSense Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B6394892A621E2D00D95FE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3B63948E2A621E2D00D95FE2 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					3B6394942A621E2D00D95FE2 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					3B6394A62A621E3100D95FE2 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3B6394942A621E2D00D95FE2;
+					};
+					3B6394B02A621E3100D95FE2 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3B6394942A621E2D00D95FE2;
+					};
+				};
+			};
+			buildConfigurationList = 3B63948C2A621E2D00D95FE2 /* Build configuration list for PBXProject "SnoozeSense" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B6394882A621E2D00D95FE2;
+			productRefGroup = 3B6394902A621E2D00D95FE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B63948E2A621E2D00D95FE2 /* SnoozeSense */,
+				3B6394942A621E2D00D95FE2 /* SnoozeSense Watch App */,
+				3B6394A62A621E3100D95FE2 /* SnoozeSense Watch AppTests */,
+				3B6394B02A621E3100D95FE2 /* SnoozeSense Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B63948D2A621E2D00D95FE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6394932A621E2D00D95FE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6394A22A621E3100D95FE2 /* Preview Assets.xcassets in Resources */,
+				3B63949F2A621E3100D95FE2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6394A52A621E3100D95FE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6394AF2A621E3100D95FE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B6394912A621E2D00D95FE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B63949D2A621E2E00D95FE2 /* ContentView.swift in Sources */,
+				3B63949B2A621E2E00D95FE2 /* SnoozeSenseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6394A32A621E3100D95FE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6394AC2A621E3100D95FE2 /* SnoozeSense_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6394AD2A621E3100D95FE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6394B62A621E3100D95FE2 /* SnoozeSense_Watch_AppUITests.swift in Sources */,
+				3B6394B82A621E3100D95FE2 /* SnoozeSense_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B6394982A621E2E00D95FE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B6394942A621E2D00D95FE2 /* SnoozeSense Watch App */;
+			targetProxy = 3B6394972A621E2E00D95FE2 /* PBXContainerItemProxy */;
+		};
+		3B6394A92A621E3100D95FE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B6394942A621E2D00D95FE2 /* SnoozeSense Watch App */;
+			targetProxy = 3B6394A82A621E3100D95FE2 /* PBXContainerItemProxy */;
+		};
+		3B6394B32A621E3100D95FE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B6394942A621E2D00D95FE2 /* SnoozeSense Watch App */;
+			targetProxy = 3B6394B22A621E3100D95FE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B6394B92A621E3100D95FE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B6394BA2A621E3100D95FE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3B6394BC2A621E3100D95FE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SnoozeSense Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SnoozeSense;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JAHR.SnoozeSense.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		3B6394BD2A621E3100D95FE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SnoozeSense Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SnoozeSense;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JAHR.SnoozeSense.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		3B6394C02A621E3100D95FE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = SnoozeSense;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JAHR.SnoozeSense;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3B6394C12A621E3100D95FE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = SnoozeSense;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JAHR.SnoozeSense;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B6394C32A621E3100D95FE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JAHR.SnoozeSense-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnoozeSense Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SnoozeSense Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		3B6394C42A621E3100D95FE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JAHR.SnoozeSense-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnoozeSense Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SnoozeSense Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		3B6394C62A621E3100D95FE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JAHR.SnoozeSense-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "SnoozeSense Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		3B6394C72A621E3100D95FE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JAHR.SnoozeSense-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "SnoozeSense Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B63948C2A621E2D00D95FE2 /* Build configuration list for PBXProject "SnoozeSense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6394B92A621E3100D95FE2 /* Debug */,
+				3B6394BA2A621E3100D95FE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B6394BB2A621E3100D95FE2 /* Build configuration list for PBXNativeTarget "SnoozeSense Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6394BC2A621E3100D95FE2 /* Debug */,
+				3B6394BD2A621E3100D95FE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B6394BF2A621E3100D95FE2 /* Build configuration list for PBXNativeTarget "SnoozeSense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6394C02A621E3100D95FE2 /* Debug */,
+				3B6394C12A621E3100D95FE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B6394C22A621E3100D95FE2 /* Build configuration list for PBXNativeTarget "SnoozeSense Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6394C32A621E3100D95FE2 /* Debug */,
+				3B6394C42A621E3100D95FE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B6394C52A621E3100D95FE2 /* Build configuration list for PBXNativeTarget "SnoozeSense Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6394C62A621E3100D95FE2 /* Debug */,
+				3B6394C72A621E3100D95FE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B6394892A621E2D00D95FE2 /* Project object */;
+}
